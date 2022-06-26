@@ -1,0 +1,10 @@
+.n-brand {
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
+	color: #7209B7;
+}
+
+.n-brand:hover {
+	border-bottom: 2px solid #7209B7;
+	cursor: pointer;
+}

@@ -8,5 +8,65 @@
 .sega-font {
     font-family: 'SEGA LOGO FONT';
     font-weight: 200;
-    color: #0ccac4;
+}
+
+.fs-14 {
+    font-size: 16px;
+}
+
+.h-300 {
+    height: 300px;
+}
+.text-violet {
+    color: #7209B7!important;
+}
+
+.text-violet:hover {
+    color:  #7209B7!important;
+    opacity: 80%;
+}
+
+.bg-violet {
+    background-color: #7209B7;
+}
+
+.top-center {
+    position: fixed;
+    top: 45%;
+}
+
+.left-start {
+    z-index: 999;
+    left: -80%;
+    padding-left: 900px;
+    background-color: #fff;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.opa {
+    opacity: 100%;
+    animation-name: opacity-100;
+    animation-duration: 5s;
+}
+
+@keyframes opacity-100 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
